@@ -29,7 +29,7 @@ while szo != "vege":
         szo2= input ("Valaszd ki, melyik sorba legyen athelyezve: ")
         ujSzo= eredetiSor[int(szo)]
         eredetiSor.insert(int(szo2), ujSzo)
-        eredetiSor.remove(eredetiSor[int(szo)])
+        eredetiSor.remove(eredetiSor[int(szo)])   
         print("Sor athelyezve")
         continue
     
