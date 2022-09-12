@@ -22,7 +22,7 @@ for x in sor:
         
 print("Varialhato sorok szama: "+ str(len(sor)))
 print ("----------------------------------------\nOpciok: \nSor athelyezese: (ertelemszeruen), vagy \nlezaras: \"vege\" szoval\n----------------------------------------")
-print ("1-3 sor: Head szekcio\n"+len(eredetiSor)-14+"-"+len(eredetiSor)+": Vevo adatai, egyeb beallitasok")
+print ("1-3 sor: Head szekcio\nUtolso 14 sor: Vevo adatai, egyeb beallitasok\n----------------------------------------")
 while szo != "vege":
     szo = input ("Valaszd ki az athelyezendo sor sorszamat:")
     if szo != "vege":
